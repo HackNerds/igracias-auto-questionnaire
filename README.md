@@ -1,7 +1,8 @@
 # igracias-auto-questionnaire
-capek ngisi manual? sama.
 
-## setup
+Udah terlalu capek harus ngisi kuesioner manual. Jadinya ya kita buat aja ginian.
+
+## run
 
 Ganti options dengan pilihan yang diinginkan.
 
@@ -9,6 +10,4 @@ Ganti options dengan pilihan yang diinginkan.
 const options = ['Sangat puas', 'Ya', 'Sangat setuju'];
 ```
 
-## run
-
-langsung copas ke console aja yaa gess 
+Langsung copas ke console aja yaa gess. 
