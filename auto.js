@@ -1,4 +1,4 @@
-const options = ['Sangat puas', 'Ya', 'Sangat setuju'];
+var options = ['Sangat puas', 'Ya', 'Sangat setuju'];
 [...document.querySelectorAll('.answerlist1')].forEach((answer) => {
   if (options.includes(answer.innerText)) {
     answer.parentElement
@@ -6,3 +6,4 @@ const options = ['Sangat puas', 'Ya', 'Sangat setuju'];
       .children[0].click();
   }
 });
+document.querySelector("input[value='simpan'").click();
