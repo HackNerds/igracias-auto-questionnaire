@@ -6,4 +6,6 @@ var options = ['Sangat puas', 'Ya', 'Sangat setuju'];
       .children[0].click();
   }
 });
+let textarea = document.querySelector("textarea");
+if(textarea) textarea.value = "saya sangat puas"
 document.querySelector("input[value='simpan'").click();
